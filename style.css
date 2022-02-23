@@ -271,6 +271,20 @@ header{
     .slider-content{
         width: 200px;
     }
+    .hidden-xs{
+        display: none;
+    }
 
 
+}
+
+@media(min-width:375px){
+
+    .menu{
+        padding-left: 30px;
+        overflow-x: scroll;
+        width: 355px;
+    }
+
+    
 }
