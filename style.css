@@ -278,14 +278,14 @@ header{
 
 }
 
-@media(min-width:375px){
+@media(max-width:375px){
     .main{
         background-size: auto;
     }
     .menu{
         padding-left: 30px;
         overflow-x: scroll;
-        width: 355px;
+        max-width: 355px;
     }
 
     
